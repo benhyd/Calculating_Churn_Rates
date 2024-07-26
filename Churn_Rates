@@ -29,7 +29,7 @@ cross_join AS (
   CROSS JOIN months
 ),
 
---Creating temporary table to find users that are active prior to the beggining of the month and users that cancel furing the month for segments 87 and 30
+--Creating temporary table to find users that are active prior to the beggining of the month and users that cancel during the month for segments 87 and 30
 status AS (
   SELECT
     id,
